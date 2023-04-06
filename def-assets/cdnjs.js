@@ -5746,6 +5746,8 @@ function nav(path) {
       idx === cur ? 'selected="selected"' : ""
     } >${name}</option>`;
   });
+  html += `</select><div class="mdui-toolbar nav-style dummyclass3" style="margin-top:0px!important">`;
+  html += `<a href="/${cur}:/" class="mdui-typo-headline folder" style="background-color:transparent">${document.siteName}</a>`;
   if (!model.is_search_page) {
     var arr = path.trim("/").split("/");
     var p = "/";
