@@ -5625,7 +5625,7 @@ function init() {
       background: radial-gradient(circle, rgba(35,14,140,1) 0%, rgba(57,25,221,1) 100%);
     }
 
-    .purp_color {color: #7304fb;}
+    
   </style>
   <div align="center" class="head_background">
       <p>&nbsp</p>
