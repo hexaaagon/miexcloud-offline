@@ -5648,9 +5648,6 @@ function init() {
   if (UI.credits) {
     html += `
     <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
-      <a href="https://github.com/cheems/goindex-extended" target="_blank">
-        <img src="https://img.shields.io/static/v1?label=cheems&amp;message=goindex-extended&amp;color=1E89F2&amp;labelColor=374455&amp;logo=github" alt="cheems - goindex-extended">
-      </a>
     </div>
     </div>
     `;
@@ -5749,8 +5746,6 @@ function nav(path) {
       idx === cur ? 'selected="selected"' : ""
     } >${name}</option>`;
   });
-  html += `</select><div class="mdui-toolbar nav-style dummyclass3" style="margin-top:0px!important">`;
-  html += `<a href="/${cur}:/" class="mdui-typo-headline folder" style="background-color:transparent">${document.siteName}</a>`;
   if (!model.is_search_page) {
     var arr = path.trim("/").split("/");
     var p = "/";
