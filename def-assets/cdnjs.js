@@ -5625,11 +5625,11 @@ function init() {
       background: radial-gradient(circle, rgba(35,14,140,1) 0%, rgba(57,25,221,1) 100%);
     }
 
-    span {color: #7304fb;}
+    .purp_color {color: #7304fb;}
   </style>
   <div align="center" class="head_background">
       <p>&nbsp</p>
-      <h1 class="big text">This is a <span>Hexagonn's CDN</span> page.</h1>
+      <h1 class="big text">This is a <span class="purp_color">Hexagonn's CDN</span> page.</h1>
       <p class="text">You're not supposed to be here. But it seems okay!</p>
       <a class="text link" href="https://hexagonn.my.id/">Click me to see my site!</a>
       <p>&nbsp</p>
