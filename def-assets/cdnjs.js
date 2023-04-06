@@ -5629,7 +5629,7 @@ function init() {
   </style>
   <div align="center" class="head_background">
       <p>&nbsp</p>
-      <h1 class="big text">This is a <span class="purp_color">Hexagonn's CDN</span> page.</h1>
+      <h1 class="big text">This is a <span id="purp_color">Hexagonn's CDN</span> page.</h1>
       <p class="text">You're not supposed to be here. But it seems okay!</p>
       <a class="text link" href="https://hexagonn.my.id/">Click me to see my site!</a>
       <p>&nbsp</p>
