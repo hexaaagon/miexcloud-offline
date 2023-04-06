@@ -5599,34 +5599,6 @@ function init() {
   );
   var html = `
 <link rel="stylesheet" href="https://ggsans.therealzzy.xyz/ggsans.css" />
-  <style>
-    .text {
-      font-family: 'gg sans', sans-serif;
-      color: #FFFFFF;
-    }
-
-    .big {
-      font-weight: 700;
-      font-size: 38px;
-    }
-
-    .link {
-      color: #0074FF;
-      text-decoration: underline;
-    }
-
-    .head_background {
-      background: rgb(2,0,36);
-      background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 71%, rgba(0,212,255,1) 100%);
-    }
-
-    .background {
-      background: rgb(35,14,140);
-      background: radial-gradient(circle, rgba(35,14,140,1) 0%, rgba(57,25,221,1) 100%);
-    }
-
-    
-  </style>
   <div align="center" class="head_background">
       <p>&nbsp</p>
       <h1 class="big text">This is a <span id="purp_color">Hexagonn's CDN</span> page.</h1>
