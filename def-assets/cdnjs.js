@@ -5645,17 +5645,9 @@ function init() {
   </div>
   <div class="mdui-center mdui-text-center mdui-text-color-blue-grey-5001" style="margin-bottom: 20px">${UI.footer_text}</div>
   `;
-  if (UI.credits) {
-    html += `
-    <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
-    </div>
+  html += `
     </div>
     `;
-  } else {
-    html += `
-    </div>
-    `;
-  }
   $("body").html(html);
 }
 const Os = {
