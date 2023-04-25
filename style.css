@@ -277,6 +277,15 @@ li a:hover {
     animation: glow-star 2s infinite ease-in-out alternate 9s;
 }
 
+h1 {
+  font-family: 'gg sans', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 10px 0 10px;
+  padding: 0;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px){
     .navbar-links{
         display: none;
